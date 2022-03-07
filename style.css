@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    
+}
+.images{
+    width: 13%;
+    height: 8%;
+    float: left;
+    margin: 15px 139px;
+}
+.btnn{
+    width: 106px;
+    height: 56px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    outline: none;
+    margin: 15px 158px;
+    padding: 8px -1px;
+    float: right;
+    transition: 0.5s;
+}
+.btnn:hover{
+    background: #ff6347;;
+    cursor: pointer;
+}
+.travel{
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 32px;
+    left: 332px;
+    display: inline-block;
+}
+.travel-para{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    left: 523px;
+}
+.place{
+    border: 1px solid white;
+    position: relative;
+    top: 85px;
+    left: 8px;
+    border-radius: 50px;
+    outline: none;
+    width: 639px;
+    height: 8px;
+    padding: 20px 12px;
+    font-size: 15px;
+}
+.btmmm{
+    box-shadow: 4px 3px 4px black;
+    background-image:linear-gradient(#00ffe7,#00fa9a);
+    padding: 8px 12px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 119px;
+    height: 45px;
+    position: relative;
+    top: 84px;
+    left: -120px;
+}
+.feature{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.feature-images{
+    display: flex;
+    justify-content: space-around;
+}
+.feature-text{
+    font-size: 30px;
+    text-align: center;
+}
+.p{
+text-align: justify;
+width: 300px;
+height: 100px;
+}
+.border{
+    height: 380px;
+    border: 1px solid white;
+    box-shadow: 2px 4px 5px black;
+    padding: 10px 12px ;
+}
+.one{
+    border: 1px solid red;
+    background:red;
+    width: 60px ;
+    height: 60px;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px 5px;
+    position: relative;
+    top: -180px;
+    left: 10px;
+}
+.two{
+    
+    border: 1px solid red;
+    background:red;
+    width: 60px ;
+    height: 60px;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px 5px;
+    position: relative;
+    top: -180px;
+    left: 10px;
+}
+.three{
+    border: 1px solid red;
+    background:red;
+    width: 60px ;
+    height: 60px;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px 5px;
+    position: relative;
+    top: -180px;
+    left: 10px;
+}
+.star{
+    position: relative;
+    top: -170px;
+    left: 190px;
+    
+}
+.field{
+    border: 1px solid white;
+    height: 450px;
+    margin: 20px 20px;
+    background:lightgray;
+}
+.gallery{
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.tom{
+    padding: 20px 12px ;
+    padding-left: 50px;
+    margin-top: -15px;
+}
+.s{
+    text-shadow: 2px 4px 5px black;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 80px;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.n{
+    text-shadow: 2px 4px 5px black;
+    position: relative;
+    top: -270px;
+    left: 410px;
+    color: white;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.m{
+    text-shadow: 2px 4px 5px black;
+    position: relative;
+    top: -320px;
+    left: 740px;
+    color: white;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.l{
+    text-shadow: 2px 4px 5px black;
+    position: relative;
+    top: -370px;
+    left: 1040px;
+    color: white;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.tom:hover{
+    transform: translateY(-10px);
+}
+.s:hover{
+    color: red;
+}
+
+.m:hover{
+    color: red;
+}
+.n:hover{
+    color: red;
+}
+.l:hover{
+    color: red;
+}
+.banner{
+    height: 500px;
+    width: 1300px;
+    padding-left: 30px;
+}
+.black{
+    height: 200px;
+    width:50px;
+    background: black;
+padding: 20px 12px ;
+}
+.aaa{
+    position: relative;
+    left: 30px;
+    top: -330px;
+    background: black;
+    opacity: 0.6;
+
+}
+.ddd{
+    position: relative;
+    left: 216px;
+    top: -451px;
+    font-size: 30px;
+    color: white;
+}
+.book{
+    position: relative;
+    top: -535px;
+    left: 917px; 
+    width: 106px;
+    height: 56px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    outline: none;
+    margin: 15px 158px;
+    padding: 8px -1px;
+}
+.review{
+    text-align: center;
+    position: relative;
+    top: -310px;
+    font-size: 40px;
+}
+.userone{
+    box-shadow: 2px 4px 5px black;
+    text-align: justify;
+    padding: 20px 12px;
+    float: left;
+    position: relative;
+    top: 0px;
+    left: -114px;
+}
+.usertwo{
+    box-shadow: 2px 4px 5px black;
+    text-align: justify;
+    padding: 20px 12px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.userthree{
+    box-shadow: 2px 4px 5px black;
+    text-align: justify;
+    padding: 20px 12px;
+    position: relative;
+    top: 0px;
+    left: 114px;
+}
+.flex{
+    display: flex;
+    width: 650px;
+    height: 150px;
+    margin: 20px auto;
+    position: relative;
+    top: -311px;
+    left: 0px;
+}
+.center{
+    text-align: center;
+}
+.iii{
+    position: relative;
+    top: 10px;
+    left: 70px;
+    border-radius: 50%;
+}
+.foot{
+    background:purple;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: -240px;
+}
+.home{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    width: 400px;
+    height: 200px;
+    padding: 20px 12px;
+}
+.asdddf{
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+.feat{
+    position: relative;
+    top: -261px;
+    left: 532px;
+}
+.hhh{
+    font-size: 30px;
+    color: white;
+    position: relative;
+}
+.f{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+
+
+}
+.c{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+
+}
+.d{
+    font-size: 20px;
+    margin-top: 45px;
+    color: white;
+}
+.contact{
+    color: white;
+    position: relative;
+    top: -435px;
+    left: 826px;
+}
+.qq{
+    position: relative;
+    top: -20px;
+    font-size: 25px;
+}
+.nsa{
+    margin-top: 30px;
+}
+.ss{
+    margin-top: 20px;
+}
+.aacc{
+    margin-top: 20px;
+}
+.abc{
+    margin-top: 20px;
+}
